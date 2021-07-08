@@ -13,8 +13,8 @@ public class Kata {
 
   public static void main(String[] args) {
     String arg;
-    for(int i = 0; i < args.length; i++) {
-      arg = args[i];
+    for (String s : args) {
+      arg = s;
       if (!checkIsNum(arg)) {
         System.out.println("NaN => NaN");
       } else {
@@ -29,7 +29,7 @@ public class Kata {
     if (Float.isNaN(num)) {
       return false;
     }
-    // Todo: Member to print results of input (3, 5, and 7).
+    printNumFooQix(num);
     return true;
   }
 
@@ -58,7 +58,7 @@ public class Kata {
     if (stringOut.length() == 0) {
       System.out.println(number);
     } else {
-      System.out.println(stringOut.toString());
+      System.out.println(stringOut);
     }
   }
 }
