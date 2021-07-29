@@ -3,3 +3,5 @@
 ## Members
 
 - Sam Little
+
+- Travis Wisch
