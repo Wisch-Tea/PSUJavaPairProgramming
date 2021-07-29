@@ -5,3 +5,5 @@
 - Sam Little
 
 - Travis Wisch
+
+- Jared Goldsmith
